@@ -20,7 +20,9 @@ var chrono = function() {
     testSec--;
 
     if (testSec < 0) {
+
         clearTimeout(time);
+        $(".game").fadeOut(500);
     }
 
 
